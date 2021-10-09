@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardyStrategies.Testing.Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardyStrategies.Testing.SeleniumUtilities", "HardyStrategies.Testing.SeleniumUtilities\HardyStrategies.Testing.SeleniumUtilities.csproj", "{F35B68C7-2A2F-453D-924A-7FE8D31959D6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardyStrategies.Testing.Common.Models", "HardyStrategies.Testing.Common.Models\HardyStrategies.Testing.Common.Models.csproj", "{BEFAAE83-11B1-4F6B-B945-00EF8AA10E00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F35B68C7-2A2F-453D-924A-7FE8D31959D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F35B68C7-2A2F-453D-924A-7FE8D31959D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F35B68C7-2A2F-453D-924A-7FE8D31959D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFAAE83-11B1-4F6B-B945-00EF8AA10E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFAAE83-11B1-4F6B-B945-00EF8AA10E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFAAE83-11B1-4F6B-B945-00EF8AA10E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFAAE83-11B1-4F6B-B945-00EF8AA10E00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
