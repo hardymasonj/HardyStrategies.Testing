@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HardyStrategies.Testing.CityLimits.Models\HardyStrategies.Testing.CityLimits.Models.csproj" />
+    <ProjectReference Include="..\HardyStrategies.Testing.Common.Models\HardyStrategies.Testing.Common.Models.csproj" />
+    <ProjectReference Include="..\HardyStrategies.Testing.Common\HardyStrategies.Testing.Common.csproj" />
+  </ItemGroup>
+
+</Project>

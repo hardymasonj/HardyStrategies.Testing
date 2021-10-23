@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardyStrategies.Testing.Sel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardyStrategies.Testing.Common.Models", "HardyStrategies.Testing.Common.Models\HardyStrategies.Testing.Common.Models.csproj", "{BEFAAE83-11B1-4F6B-B945-00EF8AA10E00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{01B0A4F1-DF32-47B4-8E85-585F2982F513}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Selenium", "Selenium", "{FB5ED731-0DE3-4250-9E3F-2C8B1183E40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardyStrategies.Testing.CityLimits.SeleniumTests", "HardyStrategies.Testing.CityLimits.SeleniumTests\HardyStrategies.Testing.CityLimits.SeleniumTests.csproj", "{82B29D48-940E-4513-9CBB-D9EA6D02FA09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardyStrategies.Testing.CityLimits.Models", "HardyStrategies.Testing.CityLimits.Models\HardyStrategies.Testing.CityLimits.Models.csproj", "{26BD5990-0FBB-480E-9928-ED199E0052DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +41,21 @@ Global
 		{BEFAAE83-11B1-4F6B-B945-00EF8AA10E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEFAAE83-11B1-4F6B-B945-00EF8AA10E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEFAAE83-11B1-4F6B-B945-00EF8AA10E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B29D48-940E-4513-9CBB-D9EA6D02FA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B29D48-940E-4513-9CBB-D9EA6D02FA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B29D48-940E-4513-9CBB-D9EA6D02FA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B29D48-940E-4513-9CBB-D9EA6D02FA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BD5990-0FBB-480E-9928-ED199E0052DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BD5990-0FBB-480E-9928-ED199E0052DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BD5990-0FBB-480E-9928-ED199E0052DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BD5990-0FBB-480E-9928-ED199E0052DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B555917C-F890-4EF6-9982-46C958A05931} = {01B0A4F1-DF32-47B4-8E85-585F2982F513}
+		{82B29D48-940E-4513-9CBB-D9EA6D02FA09} = {FB5ED731-0DE3-4250-9E3F-2C8B1183E40E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A41A3489-1511-445A-8A26-27BF3DC05812}
