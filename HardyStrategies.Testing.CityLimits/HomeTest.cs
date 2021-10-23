@@ -35,6 +35,15 @@ namespace HardyStrategies.Testing.CityLimits
 			Assert.IsTrue(this.Driver.Url.StartsWith("https://www.facebook.com/CityLimitsStorageCenter/"));
 		}
 
+		[Test]
+		public void NavigateToYelpTest()
+		{
+			this.HomePage.Footer.NavigateToYelp();
+			new WebDriverWait(this.Driver, new System.TimeSpan(0, 0, 30));
+			this.Driver.SwitchTo().Window(this.Driver.WindowHandles[1]);
+			Assert.IsTrue(this.Driver.Url.StartsWith("https://www.yelp.com/biz/city-limits-storage-center-inc-grand-rapids"));
+		}
+
 		[TearDown]
 		public void Teardown()
 		{
